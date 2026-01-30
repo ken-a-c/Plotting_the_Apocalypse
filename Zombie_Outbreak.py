@@ -1,16 +1,16 @@
 import matplotlib.pyplot as plt
 
 # Simple data - days of the week and temperatures
-days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
-temperatures = [72, 68, 75, 80, 78]
+Days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
+temperatures = [0,1,2,4,7,11,16,24,36,53,77,112,162,232,331,474,674,957,1354,1894,2646,3680,5094,7043,9709,13379,18420,25344,34861,47805,65438,89593,122671,167919,229858,314844,430622,588298,803953,1090946,1476220,1991486,2682870,3615223,4870847,6566820,8841286,11902173,16037820,21620936,29152245,39367923,53119736,71690704,96787915,130681232,176418098,238145327,321456930,434003827,585999999,791999999,1079999999,1455999999,1967999999,2655999999,3583999999,4831999999,6495999999,8703999999 ]
 
 # Create the plot
-plt.plot(days, temperatures)
+plt.plot(Days, Total Zombies)
 
 # Add labels and title
-plt.xlabel('Day of Week')
-plt.ylabel('Temperature (°F)')
-plt.title('Weekly Temperature Forecast')
+plt.xlabel('Days')
+plt.ylabel('Total Zombies')
+plt.title('Plotting the Apocalypse')
 
 # Display the plot
 plt.show()
